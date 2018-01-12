@@ -63,7 +63,7 @@ if __name__ == '__main__':
     
     sentence = sys.argv[1]
     confidence = analyse_bad_sentence(sentence)
-    if confidence > 0.9:
+    if confidence > 0.5:
         print('You should not swear at me!')
     else:
         print('Thank you!')
